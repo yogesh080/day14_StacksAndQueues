@@ -12,11 +12,12 @@ namespace stacksAndQueues
             Console.WriteLine("Welcome to the Stacks and Queues");
             Stack<int> stack = new Stack<int>();
             stack.Push(70);
-            stack.Push(30);  
+            stack.Push(30);
             stack.Push(56);
             stack.PeeK();
             stack.Pop();
             stack.PeeK();
+
 
         }
     }
